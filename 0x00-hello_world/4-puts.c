@@ -1,14 +1,19 @@
 #include <stdio.h>
 
 /**
- *main entry point
- *
- */
 
+ *main- Entry point
+
+ *
+
+ * Return: Always 0 (success)
+
+ */
+ 
 int main (void)
 {
 
-  puts("\"Programming is likke building a multilingual puzzel\n");
+  puts("\"Programming is likke building a multilingual puzzel");
 
     return (0);
 
