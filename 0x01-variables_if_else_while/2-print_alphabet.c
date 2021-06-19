@@ -17,6 +17,7 @@ for (; x <= 'z'; x++)
 	putchar(x);
 
 }
+putchar('\n')
 
 return (0);
 
