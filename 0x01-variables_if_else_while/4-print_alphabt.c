@@ -10,11 +10,15 @@ int main(void)
 int x;
 
 x = 'a';
+for (; x <= 'z'; x++)
 
-while (!('e' || 'q'))
 {
+
+if (x !='e' && x != 'q')
 	putchar(x);
-	x++;
+
+
+
 }
 putchar('\n');
 
