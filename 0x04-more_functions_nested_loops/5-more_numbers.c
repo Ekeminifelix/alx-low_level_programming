@@ -19,7 +19,3 @@ void more_numbers(void)
 		_putchar('\n');
 	}
 }
-
-    © 2021 GitHub, Inc.
-    Terms
-
