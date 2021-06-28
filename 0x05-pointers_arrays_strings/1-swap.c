@@ -1,22 +1,16 @@
 #include "holberton.h"
-
 /**
- *swap_int - function that swaps the values of two integers.
- *@a: a character in the ASCII chart
- *@b: a character in the ASCII chart
- *Return: void no return
+ * swap_int - swaps the value of two integers
+ * @a: a pointer to the integer we will be swapping
+ * @b: a pointer to the integer we will be swapping
+ *
+ * Return: nothing
  */
-
-
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
-	int temp;
+int tmp;
 
-
-	temp = *a;
-
-	*a = *b;
-
-	*b = temp;
+tmp = *a;
+*a = *b;
+*b = tmp;
 }
-
