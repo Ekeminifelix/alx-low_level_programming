@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- *main - writes name of programe
+ *main - prints the program name, followed by a new line.
  *@argc:argurment count
  *@argv: pointer to array of strings
- *return: o
+ *return: Always 0.
  */
-int main(int argc, char *argv[])/*command line argurments*/
 
+main(int argc, char *argv[])
 {
 	int i;
 
@@ -16,5 +16,5 @@ int main(int argc, char *argv[])/*command line argurments*/
 		printf("%s ", argv[i]);/*printing the string to stdout*/
 	}
 	printf("\n");/*printing a new line*/
-	return (0);
+	return (0);/* Always return 0*/
 }
