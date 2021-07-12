@@ -3,18 +3,20 @@
  *main - prints the program name, followed by a new line.
  *@argc:argurment count
  *@argv: pointer to array of strings
- *return: Always 0.
+ *Return: 0 - success
  */
 
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
 	for (i = 0; i < argc; i++)
 
 	{
-		printf("%s ", argv[i]);/*printing the string to stdout*/
+		printf("%s", argv[i]);
+
 	}
-	printf("\n");/*printing a new line*/
-	return (0);/* Always return 0*/
+
+	printf("\n");
+	return (0);
 }
