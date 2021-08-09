@@ -1,6 +1,4 @@
-
-
-0x14. C - File I/O About An introductory project on:
+0x15. C - File I/O About An introductory project on:
 
 How to create, open, close, read and write files File descriptors System calls The difference between a function and a system call Requirements Ubuntu 14.04 gcc 4.8.4 File Descriptions 0-read_textfile.c - function that reads a text file and prints it to the POSIX standard output.
 
